@@ -1,0 +1,29 @@
+canvas#gameCanvas 
+{
+    background: #7447f128;
+    position: relative;
+    border: 3px solid;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+body
+{
+    background-color: rgba(23, 32, 32);
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+      background-color: rgb(23, 32, 32);
+      color: black;
+    }
+}
+  
+@media only screen and (max-width: 890px) {
+  canvas#gameCanvas{
+    width: 50%;
+  }
+}
+  
